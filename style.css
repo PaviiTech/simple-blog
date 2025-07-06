@@ -1,0 +1,53 @@
+/* Add soft gradient background */
+body {
+  background: linear-gradient(to right, #f0f4f8, #e8f0fe);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Enhance hero section */
+section.bg-light {
+  background: linear-gradient(to right, #dbeafe, #e0f2fe);
+  color: #0f172a;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+/* Navbar hover effects */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  color: #0ea5e9;
+}
+
+/* Card shadow and hover zoom */
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Read more button hover */
+.card .btn-primary {
+  background-color: #0ea5e9;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.card .btn-primary:hover {
+  background-color: #0284c7;
+}
+
+/* Footer style */
+footer {
+  background-color: #0f172a !important;
+  color: #cbd5e1;
+  padding: 20px;
+}
+footer a {
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: #38bdf8;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Simple Blog</title>
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">📝 MyBlog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Posts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-light p-5 text-center">
+    <div class="container">
+      <h1 class="mb-3">Welcome to My Blog</h1>
+      <p class="lead">Sharing insights, ideas, and stories with the world ✨</p>
+    </div>
+  </section>
+
+  <!-- Blog Cards -->
+  <div class="container my-5">
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://source.unsplash.com/400x250/?coding,technology" class="card-img-top" alt="Blog 1">
+          <div class="card-body">
+            <h5 class="card-title">Why Learn Web Development?</h5>
+            <p class="card-text">Discover how web development skills open up opportunities in today’s digital world.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://source.unsplash.com/400x250/?keyboard,laptop" class="card-img-top" alt="Blog 2">
+          <div class="card-body">
+            <h5 class="card-title">Top 5 JavaScript Tips</h5>
+            <p class="card-text">Boost your productivity with these essential JavaScript tricks every developer should know.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://source.unsplash.com/400x250/?books,blog" class="card-img-top" alt="Blog 3">
+          <div class="card-body">
+            <h5 class="card-title">How to Start Blogging</h5>
+            <p class="card-text">Learn how to set up your blog, pick topics, and grow your audience from scratch.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-4">
+    <div>
+      <p class="mb-2">© 2025 Pavithra | Follow me on:</p>
+      <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
